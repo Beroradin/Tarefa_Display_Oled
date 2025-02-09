@@ -37,7 +37,8 @@ Utiizou-se a placa BitDogLab (que possui o microcontrolador RP2040) para a exibi
 - A matriz de LED (GPIO 7) exibe os números de 0-9 quando esses são enviados;
 - O Botão A (GPIO 5) modifica o estado do LED verde por meio de uma interrupção, também envia uma exibição para o monitor serial e display OLED;
 - O Botão B (GPIO 6) modifica o estado do LED azul por meio de uma interrupção, também envia uma exibição para o monitor serial e display OLED;
-- Os botões possuem *Debounce* de 250 ms por meio de *software*.
+- Os botões possuem *Debounce* de 250 ms por meio de *software*;
+- É utilizado I2C e UART para o cumprimento da tarefa.
 
 ## :camera: GIF mostrando o funcionamento do programa na placa BitDogLab
 <p align="center">
